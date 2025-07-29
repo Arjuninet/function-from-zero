@@ -3,4 +3,7 @@ pytest
 black
 wikipedia
 ipython
-click 
+click
+fastapi
+uvicorn
+pydantic 
