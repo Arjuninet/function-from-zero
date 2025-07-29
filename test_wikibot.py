@@ -1,4 +1,4 @@
-from wikibot import get_summary, search_wikipedia
+from wikibot import search_wikipedia
 from click.testing import CliRunner
 
 
