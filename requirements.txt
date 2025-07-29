@@ -2,4 +2,5 @@ pylint
 pytest
 black
 wikipedia
-ipython 
+ipython
+click 
