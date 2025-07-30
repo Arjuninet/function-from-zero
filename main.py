@@ -5,7 +5,7 @@ from wikibot import search_wikipedia, get_summary
 from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 
-app = FastAPI()
+app = FastAPI(title="Wikipedia Scraper API", description="API to scrape summaries from Wikipedia")
 
 class Wiki(BaseModel):
     name: str

@@ -2,7 +2,7 @@ import wikipedia
 import click
 
 
-def get_summary(name, length=1):
+def get_summary(name, length=2):
     """Fetches a summary of the given topic from Wikipedia."""
     return wikipedia.summary(name, sentences=length)
 
