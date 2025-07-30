@@ -6,4 +6,5 @@ ipython
 click
 fastapi
 uvicorn
-pydantic 
+pydantic
+textblob
